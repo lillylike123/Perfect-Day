@@ -11,12 +11,10 @@ function animate() {
   const screenWidth = window.innerWidth;
   const screenHeight = window.innerHeight;
 
-  // Bounce off right or left edge
   if (x + imgWidth >= screenWidth || x <= 0) {
     speedX = -speedX;
   }
 
-  // Bounce off bottom or top edge
   if (y + imgHeight >= screenHeight || y <= 0) {
     speedY = -speedY;
   }
@@ -30,7 +28,6 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-// Start animation once the image loads
 img.onload = () => {
   animate();
 };

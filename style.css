@@ -7,8 +7,8 @@ body{
 }
 
 .img {
-    width: 125px;
-    height: 100px;
+    width:300px;
+    height: 130px;
 }
 
 
@@ -38,15 +38,23 @@ body{
     text-decoration: none;
     margin-left: 15px;
     text-align: center;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 2px solid rgba(65, 3, 52, 0.25);
+    transition: all 0.2s ease;
   }
   
   .nav-links a:hover {
-    color: #b72b13;
+    color: #764624;
+    background: rgba(255, 255, 255, 0.55);
   }
   
   .nav-links a.active {
-    color: #de310e;       
+    color: #764624;   
     font-weight: bold;    
+    background: rgba(255, 255, 255, 0.6);
+    border-color: #764624;
   }
 
   

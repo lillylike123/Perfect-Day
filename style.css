@@ -3,6 +3,7 @@ body{
       align-items: center;
       background-repeat: no-repeat;
         background-size: cover; 
+        font-family: "Pixelify Sans";
 
 }
 
@@ -23,6 +24,7 @@ body{
   padding: 0 20px;
   z-index: 1000;
   color: rgb(134, 173, 212);
+  font-family: "Pixelify Sans";
 }
 
 .nav-links {

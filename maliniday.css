@@ -6,3 +6,82 @@ html, body {
     font-size: 1.5rem;
     background-color: rgb(162, 213, 228);
 }
+
+
+.navbar {
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 144px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+  color: rgb(134, 173, 212);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;                
+  align-items: center;
+  font-size: 30px;
+}
+.nav-links a {
+    color: rgb(65, 3, 52);
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 2px solid rgba(65, 3, 52, 0.25);
+    transition: all 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #764624;
+    background: rgba(255, 255, 255, 0.55);
+  }
+  
+  .nav-links a.active {
+    color: #764624;   
+    font-weight: bold;    
+    background: rgba(255, 255, 255, 0.6);
+    border-color: #764624;
+  }
+
+body {
+    font-family: "Pixelify Sans";
+    margin: 10px;
+    padding: 10px;
+        font-size: 2rem;
+    background-color: rgb(246, 236, 150);
+    transition: background-color 1s ease-in-out;
+
+
+}
+section {
+    min-height: 100vh; 
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+
+footer {
+    height: 100vh;
+    width: 100%;
+   
+}
+
+#hotpot {
+    width: 400px;
+    height: 300px;
+}
+
+#zip {
+    width: 300px;
+    height: 300px;
+}

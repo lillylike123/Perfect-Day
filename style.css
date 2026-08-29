@@ -14,6 +14,35 @@ body{
     height: 130px;
 }
 
+#paragraph {
+  color: green;
+  position: absolute; 
+  bottom: 0;         
+  left: 0;        
+}
+
+button {
+  position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; 
+    padding: 10px 15px;
+    cursor: pointer;
+ font-family: "Pixelify Sans";
+  font-size: 30px;
+  color: rgb(65, 3, 52);
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.35);
+  border: 2px solid rgba(65, 3, 52, 0.25);
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  color: #764624;
+  background: rgba(255, 255, 255, 0.55);
+}
 
 .navbar {
   top: 0;
